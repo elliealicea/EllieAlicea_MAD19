@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfj-JT-dUE">
+                                <rect key="frame" x="-59" y="266" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="x8i-cO-7Bn">
+                                <rect key="frame" x="69" y="105.5" width="276" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YX0-V5-wEA">
+                                        <rect key="frame" x="0.0" y="0.0" width="83" height="30"/>
+                                        <state key="normal" title="Wildstyle"/>
+                                        <connections>
+                                            <action selector="chooseAlbum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="it6-R2-J6u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dka-JI-yH9">
+                                        <rect key="frame" x="193" y="0.0" width="83" height="30"/>
+                                        <state key="normal" title="Timestretch"/>
+                                        <connections>
+                                            <action selector="chooseAlbum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mO9-9h-aFY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bassnectarHome" translatesAutoresizingMaskIntoConstraints="NO" id="B9W-Kl-NGd">
+                                <rect key="frame" x="10" y="160.5" width="394" height="394"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="500" id="Byw-B5-lNV"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="eNG-Hb-zC8"/>
+                                    <constraint firstAttribute="width" secondItem="B9W-Kl-NGd" secondAttribute="height" multiplier="1:1" id="icl-HQ-nyb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bassnectar Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F20-So-Vgh">
+                                <rect key="frame" x="136" y="60" width="142" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juJ-HD-srF">
+                                <rect key="frame" x="74" y="585" width="266" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x8i-cO-7Bn" firstAttribute="top" secondItem="F20-So-Vgh" secondAttribute="bottom" constant="25" id="IuJ-lT-hbV"/>
+                            <constraint firstItem="F20-So-Vgh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="MPH-o4-l6O"/>
+                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rpu-Ca-5VI"/>
+                            <constraint firstItem="juJ-HD-srF" firstAttribute="top" secondItem="B9W-Kl-NGd" secondAttribute="bottom" constant="30.5" id="ThR-ux-Thh"/>
+                            <constraint firstItem="Zfj-JT-dUE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="266" id="VcL-Qu-7WO"/>
+                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="leading" secondItem="Zfj-JT-dUE" secondAttribute="trailing" constant="27" id="XLX-E0-aV4"/>
+                            <constraint firstItem="x8i-cO-7Bn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m1k-YS-PHQ"/>
+                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-20" id="oSo-ok-PsI"/>
+                            <constraint firstItem="F20-So-Vgh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uQb-nh-UoR"/>
+                            <constraint firstItem="juJ-HD-srF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x66-bs-hgw"/>
+                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="top" secondItem="x8i-cO-7Bn" secondAttribute="bottom" constant="25" id="xjH-aG-t0w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="albumImage" destination="B9W-Kl-NGd" id="PcQ-Zk-tIo"/>
+                        <outlet property="labelAlbum" destination="juJ-HD-srF" id="76z-ed-hfO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bassnectarHome" width="500" height="500"/>
+    </resources>
+</document>
