@@ -57,8 +57,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juJ-HD-srF">
-                                <rect key="frame" x="74" y="585" width="266" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juJ-HD-srF">
+                                <rect key="frame" x="207" y="585" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,7 +71,8 @@
                             <constraint firstItem="B9W-Kl-NGd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rpu-Ca-5VI"/>
                             <constraint firstItem="juJ-HD-srF" firstAttribute="top" secondItem="B9W-Kl-NGd" secondAttribute="bottom" constant="30.5" id="ThR-ux-Thh"/>
                             <constraint firstItem="Zfj-JT-dUE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="266" id="VcL-Qu-7WO"/>
-                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="leading" secondItem="Zfj-JT-dUE" secondAttribute="trailing" constant="27" id="XLX-E0-aV4"/>
+                            <constraint firstItem="B9W-Kl-NGd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Zfj-JT-dUE" secondAttribute="trailing" symbolic="YES" id="XLX-E0-aV4"/>
+                            <constraint firstItem="Zfj-JT-dUE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-59" id="jz5-ys-cg7"/>
                             <constraint firstItem="x8i-cO-7Bn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m1k-YS-PHQ"/>
                             <constraint firstItem="B9W-Kl-NGd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-20" id="oSo-ok-PsI"/>
                             <constraint firstItem="F20-So-Vgh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uQb-nh-UoR"/>
