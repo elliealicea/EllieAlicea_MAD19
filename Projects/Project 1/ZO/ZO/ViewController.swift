@@ -122,7 +122,7 @@ class ViewController: UIViewController {
             displayDate.text = "Invalid"
             }
     }
-//        datePicker.isHidden = true
+
         }
     
     
