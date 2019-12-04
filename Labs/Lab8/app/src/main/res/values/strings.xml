@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="header">Where Should We Eat Tonight?</string>
+    <string name="label">Choose your flavor palette</string>
+    <string name="button">Find Restaurant</string>
+    <string-array name="types">
+        <item>Mexican</item>
+        <item>Chinese</item>
+        <item>American</item>
+        <item>Italian</item>
+        <item>Indian</item>
+    </string-array>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="suggested_restaurant">This is your suggested restaurant</string>
+
+</resources>
