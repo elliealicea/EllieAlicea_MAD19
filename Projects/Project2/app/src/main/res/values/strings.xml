@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="prompt">Build your perfect room and we will accurately detect what your Zodiac sign is!</string>
+    <string name="question1">Where is your room located?</string>
+    <string name="radio1">Mountains</string>
+    <string name="radio2">Beach</string>
+    <string name="radio3">City</string>
+    <string name="radio4">Forest</string>
+
+    <string name="question2">In what condition is your room?</string>
+    <string-array name="condition">
+        <item>Clean</item>
+        <item>Messy</item>
+    </string-array>
+
+    <string name="question3">Choose your room\'s aesthetic</string>
+    <string-array name="styles">
+        <item>Rustic</item>
+        <item>Hippie</item>
+        <item>Minimal</item>
+        <item>Grunge</item>
+    </string-array>
+
+    <string name="button">What am I?</string>
+</resources>
